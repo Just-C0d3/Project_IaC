@@ -1,9 +1,25 @@
-# Proyecto_IaC
-En este pipeline yml se hace lo siguiente: 
-  -Se comprueba si el servicio IIS y sus roles estan asignados, en caso de que no sea asi estos se instalaran.
-  -Se crea una AplicationPool para la pagina web
-  -Se crea una pagina web 
-  -Se crea un directorio virtual conectado a la web
-  -Se modifican los parametros del Default Document para que admitan index.aspx como una opcion valida
-  -Se sincroniza el documento Index.aspx local con su version subida en un repositorio 
-  -Se crea un Binding para el puerto 8087
+# IaC_Project
+
+The following code disposes a fast implementation of a website on IIS following the characteristics specified below with a yml pipeline.
+This pipeline does the following: 
+
+  
+  -Checks for IIS roles and configuration if it dosnt detect them it will automatically install them.
+  
+  
+  -Creates an application pool for the website.
+  
+  
+  -Creates a website
+
+  
+  -Creates a virtual directory for said website
+  
+  
+  -Modifies default document allowed parameters to add Index.aspx as an option.
+  
+  
+  -Syncs the default document with a document available on my devops repository.
+  
+  
+  -Creates a binding on 8087.
