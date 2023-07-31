@@ -17,13 +17,13 @@ This terraform code, contains the deployment of multiple resources related with 
   -3 network interfaces
 
   
-  - 1 client w11
+  -1 client w11
 
     
-  - 2 servers w2022
+  -2 servers w2022
 
     
-  - 1 linux sv
+  -1 linux sv
  
 
  
