@@ -1,6 +1,4 @@
-# IaC_Project
-This project contains a diversity of resources ive been creating for the pure sake of learning. The code is classified in 
-branches due to the different nature of each post. The current available branches are the following: 
-
-- Terraform+yml
-- IIS-Pipeline
+# Basic Azure Api requests
+In this project we will se a set of diferent api request ive produced in order to manipulate a bunch of 
+azure resources. This api requests are mainly focused on budget management since the main reason ive had to 
+write them is that i needed a workaround a outdated api attached to a sub.
