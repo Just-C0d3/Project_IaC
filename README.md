@@ -4,3 +4,4 @@ branches due to the different nature of each post. The current available branche
 
 - Terraform+yml
 - IIS-Pipeline
+- Basic-Api-Requests
