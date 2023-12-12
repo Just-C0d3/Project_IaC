@@ -6,7 +6,7 @@ In order to connect to the api you require an access token that can be generated
 ```
 Once you have setted an access token you can list available resource groups with the following line
 ```
-{{resource}}/subscriptions/{{subscriptionID}}/resourcegroups?api-version=2019-10-01
+{{resource}}/subscriptions/{{subscriptionID}}/resourcegroups?api-version=2021-04-01
 ```
  Being the variables: 
 - {{resource}} = https://management.azure.com
