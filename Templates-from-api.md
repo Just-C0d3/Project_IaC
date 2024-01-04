@@ -1,5 +1,5 @@
 # Manage templates from API.
-To deploy a template from api you must take in consideratio that said template must be specified in the body section of postman fe: 
+To deploy a template from api you must take in consideration that said template must be specified in the body section of postman fe: 
 ```
 {
  "properties": {
