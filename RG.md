@@ -6,7 +6,7 @@ In order to connect to the api you require an access token that can be generated
 ```
 Once you have setted an access token you can list available resource groups with the following line
 ```
-{{resource}}/subscriptions/{{subscriptionID}}/resourcegroups?api-version=2021-04-01
+GET {{resource}}/subscriptions/{{subscriptionID}}/resourcegroups?api-version=2021-04-01
 ```
  Being the variables: 
 - {{resource}} = https://management.azure.com
@@ -17,3 +17,10 @@ If you want to check your data, you can use the following commands on cli:
 ```
 az account subscription list
 ```
+To generate a brand new Resource Group you can use this command: 
+```
+PUT {{resource}}/subscriptions/{{subscriptionId}}/resourcegroups/:resourceGroup?api-version=2021-04-01
+```
+ Being the variables: 
+- {{resource}} = https://management.azure.com
+- {{subscriptionID}} = your az sub id
